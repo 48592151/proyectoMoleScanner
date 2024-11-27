@@ -10,7 +10,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Suprime los logs de nivel INFO
 
 app = FastAPI ()
 
-model_path = "melanoma1.h5"
+model_path = "moleScanner.h5"
 
 model = load_model(model_path)
 
