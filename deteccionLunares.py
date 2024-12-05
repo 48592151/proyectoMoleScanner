@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
-from fastapi import FastAPI, UploadFile, File, HTTPExceptionß
+from fastapi import FastAPI, UploadFile, File, HTTPException
 import uvicorn
 
 #evitar logs innecesarios de tensorflow
